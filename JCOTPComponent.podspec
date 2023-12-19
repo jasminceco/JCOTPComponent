@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 spec.name                  = "JCOTPComponent"
 spec.version               = "1.0.0"
 spec.summary               = "JCOTPComponent"
-spec.description           = "JCOTPComponent"
+spec.description           = "An OTP (One-Time Password) component is a crucial element in many authentication and verification systems, providing an extra layer of security by requiring users to input a temporary code sent to their registered device"
 spec.homepage              = 'https://github.com/jasminceco/JCOTPComponent'
 spec.license               = { :type => 'MIT', :file => 'LICENSE' }
 spec.author                = { 'jasmin.ceco@gmail.com' => 'jasmin.ceco@gmail.com' }
