@@ -6,7 +6,7 @@ spec.description           = "An OTP (One-Time Password) component is a crucial 
 spec.homepage              = 'https://github.com/jasminceco/JCOTPComponent'
 spec.license               = { :type => 'MIT', :file => 'LICENSE' }
 spec.author                = { 'jasmin.ceco@gmail.com' => 'jasmin.ceco@gmail.com' }
-#spec.source                = { :git => 'https://github.com/jasminceco/JCOTPComponent.git', :tag => spec.version.to_s }
+spec.source                = { :git => 'https://github.com/jasminceco/JCOTPComponent.git', :tag => spec.version.to_s }
 spec.ios.deployment_target = '14.0'
 spec.source_files          = "JCOTPComponent/Source/**/*.{swift}"
 s.vendored_frameworks      = 'XCFramework/xcframeworks/JCOTPComponent.xcframework'
