@@ -1,0 +1,51 @@
+name: JCOTPComponent
+options:
+  bundleIdPrefix: com.jasmin
+  deploymentTarget:
+    iOS: 14.0
+  postGenCommand: $(xed .)
+targets:
+  JCOTPComponentApp:
+    platform: iOS
+    sources:
+      - path: App
+    deploymentTarget: 14.0
+    developmentLanguage: en
+    type: application
+    dependencies:
+      - target: JCOTPComponent
+    settings:
+      DEVELOPMENT_TEAM:
+      ENABLE_BITCODE: NO
+      TARGETED_DEVICE_FAMILY: '1'
+      BUILD_LIBRARIES_FOR_DISTRIBUTION: YES
+      INFOPLIST_FILE: App/Resources/Info.plist
+      CODE_SIGN_IDENTITY: "iPhone Developer"
+      CURRENT_PROJECT_VERSION: 1
+      IPHONEOS_DEPLOYMENT_TARGET: 14.0
+  JCOTPComponent:
+    type: framework
+    platform: iOS
+    deploymentTarget:
+      iOS: 14.0
+    info: 
+      path: JCOTPComponent/Info.plist
+      properties:
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+    settings:
+      base:
+        SUPPORTS_MACCATALYST: NO
+        MARKETING_VERSION: 0.1.0
+        BUILD_LIBRARY_FOR_DISTRIBUTION: YES
+      configs:
+        Debug:
+          OTHER_CFLAGS: $(inherited) -fembed-bitcode-marker
+          BITCODE_GENERATION_MODE: marker
+          CLANG_ENABLE_CODE_COVERAGE: YES
+        Release:
+          OTHER_CFLAGS: $(inherited) -fembed-bitcode
+          BITCODE_GENERATION_MODE: bitcode
+          CLANG_ENABLE_CODE_COVERAGE: NO
+    sources: 
+      - path: JCOTPComponent/Source
+        createIntermediateGroups: true
