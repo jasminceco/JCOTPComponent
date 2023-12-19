@@ -1,4 +1,0 @@
-framework module JCOTPComponent {
-  header "JCOTPComponent-Swift.h"
-  requires objc
-}
