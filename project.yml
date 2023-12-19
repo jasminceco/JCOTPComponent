@@ -3,7 +3,7 @@ options:
   bundleIdPrefix: com.jasmin
   deploymentTarget:
     iOS: 14.0
-  postGenCommand: $(xed .)
+  postGenCommand: pod install $(xed .)
 targets:
   JCOTPComponentApp:
     platform: iOS
@@ -49,3 +49,8 @@ targets:
     sources: 
       - path: JCOTPComponent/Source
         createIntermediateGroups: true
+aggregateTargets:
+  JCOTPComponentGenerator:
+    buildScripts:
+      - path: myscripts/xcframework.sh
+        name: XCframework

@@ -4,21 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>JCOTPComponent.xcscheme_^#shared#^_</key>
+		<key>Pods-JCOTPComponent.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
-		<key>JCOTPComponentApp.xcscheme_^#shared#^_</key>
+		<key>Pods-JCOTPComponentApp.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>JCOTPComponentGenerator.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict/>
 </dict>
 </plist>

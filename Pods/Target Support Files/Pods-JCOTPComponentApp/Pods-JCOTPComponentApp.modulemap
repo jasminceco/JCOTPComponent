@@ -1,0 +1,6 @@
+framework module Pods_JCOTPComponentApp {
+  umbrella header "Pods-JCOTPComponentApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

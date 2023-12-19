@@ -3,20 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EEB130B2226D34F3B00543A7 /* JCOTPComponentGenerator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ED62678A1B3B8E6E2FB6F269 /* Build configuration list for PBXAggregateTarget "JCOTPComponentGenerator" */;
+			buildPhases = (
+				1181B57C0ABF729F529872A6 /* XCframework */,
+			);
+			dependencies = (
+			);
+			name = JCOTPComponentGenerator;
+			productName = JCOTPComponentGenerator;
+		};
+/* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
 		00DAA9BED4E008B7119B1390 /* JCOTPComponentImplementationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB6B5CF100245188D0FE8FD /* JCOTPComponentImplementationProtocol.swift */; };
+		01945447AE5FD8419BDFA971 /* Pods_JCOTPComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207D78DD7095B0020A39753B /* Pods_JCOTPComponent.framework */; };
 		04649731080C2F0741C0CB43 /* JCOTPComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0873237F26775C3CB2FCDA /* JCOTPComponent.swift */; };
 		08DF075EDAAEF5E28E8E4301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08B08DCF0BA02D04CE2D849 /* LaunchScreen.storyboard */; };
 		10E0568ED4C6D7E36BC9D6CF /* JCOTPComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B40DE34F139A7D4162A3411 /* JCOTPComponent.framework */; };
-		287D00B12B31D46200B1EA13 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D00B02B31D46200B1EA13 /* UIView+ext.swift */; };
+		2C75EA67AF19E389DAE4B312 /* Pods_JCOTPComponentApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADDFA16977F64E4AE17E22E /* Pods_JCOTPComponentApp.framework */; };
 		37614D9D00AC4251DCA42FAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468CF71F70EBDDC5EE674209 /* ViewController.swift */; };
 		387BDE65B85B5F443213F4E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B0C384F6903BF5AFEC7106 /* AppDelegate.swift */; };
 		6B8E9978A048CC12AF5D5202 /* JCOTPComponentImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87841D95E69B6C288A4D783C /* JCOTPComponentImplementation.swift */; };
 		943574FA34511E01296CB725 /* JCOTPComponentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9096628D5AD39963A2ECF822 /* JCOTPComponentDelegate.swift */; };
 		CCC1FD198909C7D6E8A43E84 /* JCOTPComponent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B40DE34F139A7D4162A3411 /* JCOTPComponent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D82E37F60107AAA3029A23D5 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E4733CCBAAE5B6BEED74E /* UIView+ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,12 +60,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0665A4DD0C2B003FE2F63C98 /* Pods-JCOTPComponentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCOTPComponentApp.release.xcconfig"; path = "Target Support Files/Pods-JCOTPComponentApp/Pods-JCOTPComponentApp.release.xcconfig"; sourceTree = "<group>"; };
+		0ADDFA16977F64E4AE17E22E /* Pods_JCOTPComponentApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCOTPComponentApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B40DE34F139A7D4162A3411 /* JCOTPComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCOTPComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		287D00B02B31D46200B1EA13 /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		207D78DD7095B0020A39753B /* Pods_JCOTPComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCOTPComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2257682141E49C29D4213CF2 /* Pods-JCOTPComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCOTPComponent.debug.xcconfig"; path = "Target Support Files/Pods-JCOTPComponent/Pods-JCOTPComponent.debug.xcconfig"; sourceTree = "<group>"; };
 		2FB6B5CF100245188D0FE8FD /* JCOTPComponentImplementationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCOTPComponentImplementationProtocol.swift; sourceTree = "<group>"; };
+		35F0C1C2396F38ADBF78CC13 /* Pods-JCOTPComponentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCOTPComponentApp.debug.xcconfig"; path = "Target Support Files/Pods-JCOTPComponentApp/Pods-JCOTPComponentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3CE56B092CB927470388C69B /* Pods-JCOTPComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCOTPComponent.release.xcconfig"; path = "Target Support Files/Pods-JCOTPComponent/Pods-JCOTPComponent.release.xcconfig"; sourceTree = "<group>"; };
 		41B0C384F6903BF5AFEC7106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		468CF71F70EBDDC5EE674209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58F367522E124E2DDDE4F2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		831E4733CCBAAE5B6BEED74E /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
 		87841D95E69B6C288A4D783C /* JCOTPComponentImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCOTPComponentImplementation.swift; sourceTree = "<group>"; };
 		9096628D5AD39963A2ECF822 /* JCOTPComponentDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCOTPComponentDelegate.swift; sourceTree = "<group>"; };
 		BA0873237F26775C3CB2FCDA /* JCOTPComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCOTPComponent.swift; sourceTree = "<group>"; };
@@ -63,12 +85,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				10E0568ED4C6D7E36BC9D6CF /* JCOTPComponent.framework in Frameworks */,
+				2C75EA67AF19E389DAE4B312 /* Pods_JCOTPComponentApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48ACB32BE538FF3764BDA1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01945447AE5FD8419BDFA971 /* Pods_JCOTPComponent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		063F4D4F25068F3B2DBDBBB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				207D78DD7095B0020A39753B /* Pods_JCOTPComponent.framework */,
+				0ADDFA16977F64E4AE17E22E /* Pods_JCOTPComponentApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1D9D902FFA23352F0B274A42 /* JCOTPComponent */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				F99E53ACC9FB41A457BF7D56 /* App */,
 				1D9D902FFA23352F0B274A42 /* JCOTPComponent */,
 				805C1EB24D6BF12B242490ED /* Products */,
+				8752577D02E8C45E1091BA58 /* Pods */,
+				063F4D4F25068F3B2DBDBBB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +135,18 @@
 				D981D785F5C4CF4AE18B242B /* JCOTPComponentApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8752577D02E8C45E1091BA58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2257682141E49C29D4213CF2 /* Pods-JCOTPComponent.debug.xcconfig */,
+				3CE56B092CB927470388C69B /* Pods-JCOTPComponent.release.xcconfig */,
+				35F0C1C2396F38ADBF78CC13 /* Pods-JCOTPComponentApp.debug.xcconfig */,
+				0665A4DD0C2B003FE2F63C98 /* Pods-JCOTPComponentApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		A878088D532D57754E655E29 /* Resources */ = {
@@ -110,7 +164,7 @@
 				9096628D5AD39963A2ECF822 /* JCOTPComponentDelegate.swift */,
 				87841D95E69B6C288A4D783C /* JCOTPComponentImplementation.swift */,
 				2FB6B5CF100245188D0FE8FD /* JCOTPComponentImplementationProtocol.swift */,
-				287D00B02B31D46200B1EA13 /* UIView+ext.swift */,
+				831E4733CCBAAE5B6BEED74E /* UIView+ext.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -133,7 +187,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CFC384CE34305D0AE05A9C8 /* Build configuration list for PBXNativeTarget "JCOTPComponent" */;
 			buildPhases = (
+				56D9486BBA0DEC206440824D /* [CP] Check Pods Manifest.lock */,
 				E61A60972A2E935334146B98 /* Sources */,
+				48ACB32BE538FF3764BDA1B0 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C20D39345DB64DD110868D6 /* Build configuration list for PBXNativeTarget "JCOTPComponentApp" */;
 			buildPhases = (
+				354D343583DA3C3CCD8E3D5B /* [CP] Check Pods Manifest.lock */,
 				0E8A9C9BFE93F85E24885042 /* Sources */,
 				067FEC4D74191A47A8968529 /* Resources */,
 				1B27ED389A8ADE2A78D58D73 /* Frameworks */,
@@ -186,11 +243,13 @@
 				en,
 			);
 			mainGroup = 7C9F783390DD377A9FAF83C9;
+			productRefGroup = 805C1EB24D6BF12B242490ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				894F5DC116FC8943E3ADB0FA /* JCOTPComponent */,
 				EB8A60DF768D5727E7BF358D /* JCOTPComponentApp */,
+				EEB130B2226D34F3B00543A7 /* JCOTPComponentGenerator */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +264,71 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1181B57C0ABF729F529872A6 /* XCframework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = XCframework;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Release dir path\nOUTPUT_DIR_PATH=\"${PROJECT_DIR}/XCFramework\"\n\n\nfunction archivePathSimulator {\n  local DIR=${OUTPUT_DIR_PATH}/archives/\"${1}-SIMULATOR\"\n  echo \"${DIR}\"\n}\n\nfunction archivePathDevice {\n  local DIR=${OUTPUT_DIR_PATH}/archives/\"${1}-DEVICE\"\n  echo \"${DIR}\"\n}\n\n# Archive takes 3 params\n#\n# 1st == SCHEME\n# 2nd == destination\n# 3rd == archivePath\nfunction archive {\n    echo \"▸ Starts archiving the scheme: ${1} for destination: ${2};\\n▸ Archive path: ${3}.xcarchive\"\n    xcodebuild clean archive \\\n    -workspace \"${PROJECT_NAME}.xcworkspace\" \\\n    -scheme ${1} \\\n    -configuration ${CONFIGURATION} \\\n    -destination \"${2}\" \\\n    -archivePath \"${3}\" \\\n    SKIP_INSTALL=NO \\\n    OTHER_SWIFT_FLAGS=\"-D NOTRIAL_VERSION\" \\\n    ENABLE_BITCODE=NO \\\n    OBJROOT=\"${OBJROOT}/DependentBuilds\" \\\n    BUILD_LIBRARY_FOR_DISTRIBUTION=YES | xcpretty\n}\n\n# Builds archive for iOS simulator & device\nfunction buildArchive {\n  SCHEME=${1}\n\n  archive $SCHEME \"generic/platform=iOS Simulator\" $(archivePathSimulator $SCHEME)\n  archive $SCHEME \"generic/platform=iOS\" $(archivePathDevice $SCHEME)\n}\n\n# Creates xc framework\nfunction createXCFramework {\n  FRAMEWORK_ARCHIVE_PATH_POSTFIX=\".xcarchive/Products/Library/Frameworks\"\n  FRAMEWORK_SIMULATOR_DIR=\"$(archivePathSimulator $1)${FRAMEWORK_ARCHIVE_PATH_POSTFIX}\"\n  FRAMEWORK_DEVICE_DIR=\"$(archivePathDevice $1)${FRAMEWORK_ARCHIVE_PATH_POSTFIX}\"\n\n  xcodebuild -create-xcframework \\\n            -framework ${FRAMEWORK_SIMULATOR_DIR}/${1}.framework \\\n            -framework ${FRAMEWORK_DEVICE_DIR}/${1}.framework \\\n            -output ${OUTPUT_DIR_PATH}/xcframeworks/${1}.xcframework\n\n}\n\n### Static Libraries cant be turned into frameworks\nfunction createXCFrameworkForStaticLibrary {\n\n  LIBRARY_ARCHIVE_PATH_POSTFIX=\".xcarchive/Products/usr/local/lib\"\n  LIBRARY_SIMULATOR_DIR=\"$(archivePathSimulator $1)${LIBRARY_ARCHIVE_PATH_POSTFIX}\"\n  LIBRARY_DEVICE_DIR=\"$(archivePathDevice $1)${LIBRARY_ARCHIVE_PATH_POSTFIX}\"\n\n  xcodebuild -create-xcframework \\\n            -library ${LIBRARY_SIMULATOR_DIR}/libStaticLibrary.a \\\n            -library ${LIBRARY_DEVICE_DIR}/libStaticLibrary.a \\\n            -output ${OUTPUT_DIR_PATH}/xcframeworks/${1}.xcframework\n}\n\necho \"#####################\"\necho \"▸ Cleaning the dir: ${OUTPUT_DIR_PATH}\"\nrm -rf $OUTPUT_DIR_PATH\n\n#### Dynamic Framework ####\n\nDYNAMIC_FRAMEWORK=\"${PROJECT_NAME}\"\n\necho \"▸ Archive $DYNAMIC_FRAMEWORK\"\nbuildArchive ${DYNAMIC_FRAMEWORK}\n\necho \"▸ Create $DYNAMIC_FRAMEWORK.xcframework\"\ncreateXCFramework ${DYNAMIC_FRAMEWORK}\n";
+		};
+		354D343583DA3C3CCD8E3D5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JCOTPComponentApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56D9486BBA0DEC206440824D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JCOTPComponent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E8A9C9BFE93F85E24885042 /* Sources */ = {
@@ -224,7 +348,7 @@
 				943574FA34511E01296CB725 /* JCOTPComponentDelegate.swift in Sources */,
 				6B8E9978A048CC12AF5D5202 /* JCOTPComponentImplementation.swift in Sources */,
 				00DAA9BED4E008B7119B1390 /* JCOTPComponentImplementationProtocol.swift in Sources */,
-				287D00B12B31D46200B1EA13 /* UIView+ext.swift in Sources */,
+				D82E37F60107AAA3029A23D5 /* UIView+ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +376,7 @@
 /* Begin XCBuildConfiguration section */
 		2AF52B49155830E227FFF49B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2257682141E49C29D4213CF2 /* Pods-JCOTPComponent.debug.xcconfig */;
 			buildSettings = {
 				BITCODE_GENERATION_MODE = marker;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -284,6 +409,7 @@
 		};
 		2D1315D638B8BABE4411924F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE56B092CB927470388C69B /* Pods-JCOTPComponent.release.xcconfig */;
 			buildSettings = {
 				BITCODE_GENERATION_MODE = bitcode;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -379,6 +505,7 @@
 		};
 		AF1B612B143C247EBC63BFBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0665A4DD0C2B003FE2F63C98 /* Pods-JCOTPComponentApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARIES_FOR_DISTRIBUTION = YES;
@@ -397,6 +524,12 @@
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
+		};
+		B68FAE57731650A12CA98750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
 		};
 		C9D8B12EED76B038271CB445 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -454,8 +587,15 @@
 			};
 			name = Release;
 		};
+		CDD64B35585FBCF6C9F16DC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
 		FBECC4C219FEA2DC02390F9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F0C1C2396F38ADBF78CC13 /* Pods-JCOTPComponentApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARIES_FOR_DISTRIBUTION = YES;
@@ -501,6 +641,15 @@
 			buildConfigurations = (
 				79AF8A9E48ECD7E08E5F2082 /* Debug */,
 				C9D8B12EED76B038271CB445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED62678A1B3B8E6E2FB6F269 /* Build configuration list for PBXAggregateTarget "JCOTPComponentGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68FAE57731650A12CA98750 /* Debug */,
+				CDD64B35585FBCF6C9F16DC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
