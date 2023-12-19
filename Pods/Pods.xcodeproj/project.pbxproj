@@ -3,70 +3,83 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24E4AF46C80A9BFF38601C6EFBE1D89F /* Pods-JCOTPComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CEA97FE8ABE55FD8A511A46B7D1C1C /* Pods-JCOTPComponent-dummy.m */; };
-		2502D072091E602A1E950CDB353EEA7F /* Pods-JCOTPComponentApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DACC396CA3A791CF0FF6A1F3AB9AC1 /* Pods-JCOTPComponentApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AD676909C425D952FF8FBC4146D5F9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		55B623463D5BAA0EE11F733EABFFB6B4 /* Pods-JCOTPComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F47C6F346FF687B8460BC5B8D13F910 /* Pods-JCOTPComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56967209C3E96F664E08C669413A071C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		56C0291ABA9F24D1FCDA9B61017FD581 /* Pods-JCOTPComponentApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7067BAA325FB81C61D55BE74C042EFE7 /* Pods-JCOTPComponentApp-dummy.m */; };
+		0950C4ABC2902CC2877C9B0DC59E82AB /* Pods-JCOTPComponentApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 719A86F2A5460893AF1E457B56FC12D7 /* Pods-JCOTPComponentApp-dummy.m */; };
+		1E22CA94E30D3E815D2845E0B705B3EB /* JCOTPComponentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163353DFA259538CB091F6DCA8DC44D1 /* JCOTPComponentDelegate.swift */; };
+		31CC711A523DD8228D92160DE5DFE705 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		515BD43DF0E1533EBF24F8CC8EF06DE0 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B598210403A94AC514BAF8B8D3432 /* UIView+ext.swift */; };
+		7E1028437DD3AD1854733FFE34AAEC44 /* JCOTPComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F123100CA9A2FDFCCC74313E945556CB /* JCOTPComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A322BE4BC9FDDE810FDB8FDE16BF37E0 /* JCOTPComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB191EAAC6728804D58312684A77111 /* JCOTPComponent.swift */; };
+		A5DE67DD5D7CF8CC44A5C9D2E6E6DF21 /* Pods-JCOTPComponentApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F28809209F8919D735199F568E53F13 /* Pods-JCOTPComponentApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AC57DE26DDB468134A46AF70622D2F /* JCOTPComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD01ED74DE56400444EC104120F9A17 /* JCOTPComponent-dummy.m */; };
+		E512896BB38207130FE22E7294322728 /* JCOTPComponentImplementationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6947C7A72C3BD771ACFD88F8CFC26461 /* JCOTPComponentImplementationProtocol.swift */; };
+		EA713BF8042BE455DA315C35331536CF /* JCOTPComponentImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8AFB3D5A1999EC2E34F498594C15C7 /* JCOTPComponentImplementation.swift */; };
+		F98E17F94C9A04602E442AEFA1CA3A3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B5262382F8A484C34011885C06EA10E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBDBD2F0F94A47F81D4802A451861F3E;
+			remoteInfo = JCOTPComponent;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		041BAE998E1CE6D46E1CC0E8A44AFE73 /* Pods-JCOTPComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCOTPComponent.debug.xcconfig"; sourceTree = "<group>"; };
-		1B01B54345B9D83922753D74FDB00279 /* Pods-JCOTPComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCOTPComponent-Info.plist"; sourceTree = "<group>"; };
-		1CE05FD18A32F40A1F658A37489C920F /* Pods-JCOTPComponentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCOTPComponentApp.debug.xcconfig"; sourceTree = "<group>"; };
-		2CD57E79A285A63515EC706B78399A3E /* Pods-JCOTPComponentApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCOTPComponentApp.modulemap"; sourceTree = "<group>"; };
-		32DACC396CA3A791CF0FF6A1F3AB9AC1 /* Pods-JCOTPComponentApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCOTPComponentApp-umbrella.h"; sourceTree = "<group>"; };
-		46DC70B9A4BB497C5CE54617CEB3B499 /* Pods-JCOTPComponent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCOTPComponent-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63CCDA96E26EA58BDFD390055763EB3C /* Pods-JCOTPComponentApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCOTPComponentApp-Info.plist"; sourceTree = "<group>"; };
-		7067BAA325FB81C61D55BE74C042EFE7 /* Pods-JCOTPComponentApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCOTPComponentApp-dummy.m"; sourceTree = "<group>"; };
+		1391A187C17204F40F51BE86C6522EC0 /* JCOTPComponent.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = JCOTPComponent.xcframework; path = XCFramework/xcframeworks/JCOTPComponent.xcframework; sourceTree = "<group>"; };
+		163353DFA259538CB091F6DCA8DC44D1 /* JCOTPComponentDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCOTPComponentDelegate.swift; path = JCOTPComponent/Source/JCOTPComponentDelegate.swift; sourceTree = "<group>"; };
+		16342601A034947B0232A524895194B9 /* Pods-JCOTPComponentApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCOTPComponentApp.modulemap"; sourceTree = "<group>"; };
+		2956BD6AE907706FBE38132A690E3900 /* JCOTPComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCOTPComponent.debug.xcconfig; sourceTree = "<group>"; };
+		2AC1996E3DE61F3319D8A2F80986BB5E /* Pods-JCOTPComponentApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCOTPComponentApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BC9655E85F7AF90943F20065F91FCE7 /* Pods-JCOTPComponentApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCOTPComponentApp-frameworks.sh"; sourceTree = "<group>"; };
+		3DEA9C210951BB4D76506CC171693EC2 /* JCOTPComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCOTPComponent.release.xcconfig; sourceTree = "<group>"; };
+		476A91D7D5D3E1B843FD0F3F3BA7D409 /* Pods-JCOTPComponentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCOTPComponentApp.release.xcconfig"; sourceTree = "<group>"; };
+		4B4B598210403A94AC514BAF8B8D3432 /* UIView+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+ext.swift"; path = "JCOTPComponent/Source/UIView+ext.swift"; sourceTree = "<group>"; };
+		4CCE726A2467956A0EF8BF240F656BA6 /* JCOTPComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCOTPComponent.modulemap; sourceTree = "<group>"; };
+		5F28809209F8919D735199F568E53F13 /* Pods-JCOTPComponentApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCOTPComponentApp-umbrella.h"; sourceTree = "<group>"; };
+		6947C7A72C3BD771ACFD88F8CFC26461 /* JCOTPComponentImplementationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCOTPComponentImplementationProtocol.swift; path = JCOTPComponent/Source/JCOTPComponentImplementationProtocol.swift; sourceTree = "<group>"; };
+		719A86F2A5460893AF1E457B56FC12D7 /* Pods-JCOTPComponentApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCOTPComponentApp-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9BD70C579BCF5C4E4FF9FFAC523016BC /* Pods-JCOTPComponent */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JCOTPComponent"; path = Pods_JCOTPComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8543BC73C58E09DD2CF6E6A2860A75BC /* JCOTPComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCOTPComponent-prefix.pch"; sourceTree = "<group>"; };
+		8AD01ED74DE56400444EC104120F9A17 /* JCOTPComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCOTPComponent-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F47C6F346FF687B8460BC5B8D13F910 /* Pods-JCOTPComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCOTPComponent-umbrella.h"; sourceTree = "<group>"; };
-		A8A3704D9751A5DA02A75EA0ACA00232 /* Pods-JCOTPComponentApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCOTPComponentApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B0EAB60DE0A627B9152A43A1AA291868 /* Pods-JCOTPComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCOTPComponent.modulemap"; sourceTree = "<group>"; };
-		CA1FBF957B99045188A0DED1FE4340AB /* Pods-JCOTPComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCOTPComponent.release.xcconfig"; sourceTree = "<group>"; };
-		D5CEA97FE8ABE55FD8A511A46B7D1C1C /* Pods-JCOTPComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCOTPComponent-dummy.m"; sourceTree = "<group>"; };
-		D9FF1EBEDA21C734BF1314B1A63145D0 /* Pods-JCOTPComponentApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCOTPComponentApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		E08C64155B5F6390E583F7DFF2CA62F4 /* Pods-JCOTPComponentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCOTPComponentApp.release.xcconfig"; sourceTree = "<group>"; };
-		E6737967ADD5D6E36F3B1EA2A3614121 /* Pods-JCOTPComponent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCOTPComponent-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE8AFB3D5A1999EC2E34F498594C15C7 /* JCOTPComponentImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCOTPComponentImplementation.swift; path = JCOTPComponent/Source/JCOTPComponentImplementation.swift; sourceTree = "<group>"; };
+		C66B76EFBE6949A8763FBEF8ACDFE004 /* JCOTPComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JCOTPComponent-Info.plist"; sourceTree = "<group>"; };
+		DCC665DBAE9DA13EDFA92B0539A2381D /* Pods-JCOTPComponentApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCOTPComponentApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF5097C69174805C41AE8E32E3B8F4AD /* JCOTPComponent-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "JCOTPComponent-xcframeworks.sh"; sourceTree = "<group>"; };
+		E129AD9D3202D625C1FD6B18CA2B2DDB /* Pods-JCOTPComponentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCOTPComponentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EB1D1C4FAF2C1B4BCC7ED44F8195BC0A /* Pods-JCOTPComponentApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCOTPComponentApp-Info.plist"; sourceTree = "<group>"; };
 		EC0DB9241C7442C5FFAB275000F55AEC /* Pods-JCOTPComponentApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JCOTPComponentApp"; path = Pods_JCOTPComponentApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB191EAAC6728804D58312684A77111 /* JCOTPComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JCOTPComponent.swift; path = JCOTPComponent/Source/JCOTPComponent.swift; sourceTree = "<group>"; };
+		F123100CA9A2FDFCCC74313E945556CB /* JCOTPComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCOTPComponent-umbrella.h"; sourceTree = "<group>"; };
+		FB7610F6D8C3AC1130319567D3805801 /* JCOTPComponent */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JCOTPComponent; path = JCOTPComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A004EC8628881D2BF2DABEED91DF111 /* Frameworks */ = {
+		BF1FA44615F5D8DCBDF51AA9197A3BBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56967209C3E96F664E08C669413A071C /* Foundation.framework in Frameworks */,
+				F98E17F94C9A04602E442AEFA1CA3A3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		486BC8D6F423CEF7680A3C47F247ADD1 /* Frameworks */ = {
+		D2824DECD459D791EC392DFF4F3054C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD676909C425D952FF8FBC4146D5F9B /* Foundation.framework in Frameworks */,
+				31CC711A523DD8228D92160DE5DFE705 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		33F3BD95E7916B03C425E73FA2E6D951 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9BD70C579BCF5C4E4FF9FFAC523016BC /* Pods-JCOTPComponent */,
-				EC0DB9241C7442C5FFAB275000F55AEC /* Pods-JCOTPComponentApp */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,29 +88,68 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8BFF9621736048F47F985E8FE85BA3B0 /* Targets Support Files */ = {
+		5A2B4E0EA180C1A1B86A518025729463 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEA8FA8D5F915E3E1332E861DD94B28C /* Pods-JCOTPComponent */,
-				D8463A3F3AABC4AFD6874CE6253E0380 /* Pods-JCOTPComponentApp */,
+				FB7610F6D8C3AC1130319567D3805801 /* JCOTPComponent */,
+				EC0DB9241C7442C5FFAB275000F55AEC /* Pods-JCOTPComponentApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E965A22C29E1A1BC9091A035517D832 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE726A2467956A0EF8BF240F656BA6 /* JCOTPComponent.modulemap */,
+				8AD01ED74DE56400444EC104120F9A17 /* JCOTPComponent-dummy.m */,
+				C66B76EFBE6949A8763FBEF8ACDFE004 /* JCOTPComponent-Info.plist */,
+				8543BC73C58E09DD2CF6E6A2860A75BC /* JCOTPComponent-prefix.pch */,
+				F123100CA9A2FDFCCC74313E945556CB /* JCOTPComponent-umbrella.h */,
+				DF5097C69174805C41AE8E32E3B8F4AD /* JCOTPComponent-xcframeworks.sh */,
+				2956BD6AE907706FBE38132A690E3900 /* JCOTPComponent.debug.xcconfig */,
+				3DEA9C210951BB4D76506CC171693EC2 /* JCOTPComponent.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JCOTPComponent";
+			sourceTree = "<group>";
+		};
+		92B3FA6032458DE910CE7D3B5A2E2107 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1391A187C17204F40F51BE86C6522EC0 /* JCOTPComponent.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A03234201B88D64C6D93C6069A1F857B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDBC28A3E14C828C3287F4A1B23288 /* Pods-JCOTPComponentApp */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AEA8FA8D5F915E3E1332E861DD94B28C /* Pods-JCOTPComponent */ = {
+		A1B0CE3E0DC14816E2DC4C9658EE9D1E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B0EAB60DE0A627B9152A43A1AA291868 /* Pods-JCOTPComponent.modulemap */,
-				46DC70B9A4BB497C5CE54617CEB3B499 /* Pods-JCOTPComponent-acknowledgements.markdown */,
-				E6737967ADD5D6E36F3B1EA2A3614121 /* Pods-JCOTPComponent-acknowledgements.plist */,
-				D5CEA97FE8ABE55FD8A511A46B7D1C1C /* Pods-JCOTPComponent-dummy.m */,
-				1B01B54345B9D83922753D74FDB00279 /* Pods-JCOTPComponent-Info.plist */,
-				9F47C6F346FF687B8460BC5B8D13F910 /* Pods-JCOTPComponent-umbrella.h */,
-				041BAE998E1CE6D46E1CC0E8A44AFE73 /* Pods-JCOTPComponent.debug.xcconfig */,
-				CA1FBF957B99045188A0DED1FE4340AB /* Pods-JCOTPComponent.release.xcconfig */,
+				C3FB3867D78FCC99526C265F07C08CC2 /* JCOTPComponent */,
 			);
-			name = "Pods-JCOTPComponent";
-			path = "Target Support Files/Pods-JCOTPComponent";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3FB3867D78FCC99526C265F07C08CC2 /* JCOTPComponent */ = {
+			isa = PBXGroup;
+			children = (
+				EDB191EAAC6728804D58312684A77111 /* JCOTPComponent.swift */,
+				163353DFA259538CB091F6DCA8DC44D1 /* JCOTPComponentDelegate.swift */,
+				AE8AFB3D5A1999EC2E34F498594C15C7 /* JCOTPComponentImplementation.swift */,
+				6947C7A72C3BD771ACFD88F8CFC26461 /* JCOTPComponentImplementationProtocol.swift */,
+				4B4B598210403A94AC514BAF8B8D3432 /* UIView+ext.swift */,
+				92B3FA6032458DE910CE7D3B5A2E2107 /* Frameworks */,
+				6E965A22C29E1A1BC9091A035517D832 /* Support Files */,
+			);
+			name = JCOTPComponent;
+			path = JCOTPComponent;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -105,8 +157,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				33F3BD95E7916B03C425E73FA2E6D951 /* Products */,
-				8BFF9621736048F47F985E8FE85BA3B0 /* Targets Support Files */,
+				A1B0CE3E0DC14816E2DC4C9658EE9D1E /* Pods */,
+				5A2B4E0EA180C1A1B86A518025729463 /* Products */,
+				A03234201B88D64C6D93C6069A1F857B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,17 +171,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8463A3F3AABC4AFD6874CE6253E0380 /* Pods-JCOTPComponentApp */ = {
+		D6BDBC28A3E14C828C3287F4A1B23288 /* Pods-JCOTPComponentApp */ = {
 			isa = PBXGroup;
 			children = (
-				2CD57E79A285A63515EC706B78399A3E /* Pods-JCOTPComponentApp.modulemap */,
-				A8A3704D9751A5DA02A75EA0ACA00232 /* Pods-JCOTPComponentApp-acknowledgements.markdown */,
-				D9FF1EBEDA21C734BF1314B1A63145D0 /* Pods-JCOTPComponentApp-acknowledgements.plist */,
-				7067BAA325FB81C61D55BE74C042EFE7 /* Pods-JCOTPComponentApp-dummy.m */,
-				63CCDA96E26EA58BDFD390055763EB3C /* Pods-JCOTPComponentApp-Info.plist */,
-				32DACC396CA3A791CF0FF6A1F3AB9AC1 /* Pods-JCOTPComponentApp-umbrella.h */,
-				1CE05FD18A32F40A1F658A37489C920F /* Pods-JCOTPComponentApp.debug.xcconfig */,
-				E08C64155B5F6390E583F7DFF2CA62F4 /* Pods-JCOTPComponentApp.release.xcconfig */,
+				16342601A034947B0232A524895194B9 /* Pods-JCOTPComponentApp.modulemap */,
+				2AC1996E3DE61F3319D8A2F80986BB5E /* Pods-JCOTPComponentApp-acknowledgements.markdown */,
+				DCC665DBAE9DA13EDFA92B0539A2381D /* Pods-JCOTPComponentApp-acknowledgements.plist */,
+				719A86F2A5460893AF1E457B56FC12D7 /* Pods-JCOTPComponentApp-dummy.m */,
+				3BC9655E85F7AF90943F20065F91FCE7 /* Pods-JCOTPComponentApp-frameworks.sh */,
+				EB1D1C4FAF2C1B4BCC7ED44F8195BC0A /* Pods-JCOTPComponentApp-Info.plist */,
+				5F28809209F8919D735199F568E53F13 /* Pods-JCOTPComponentApp-umbrella.h */,
+				E129AD9D3202D625C1FD6B18CA2B2DDB /* Pods-JCOTPComponentApp.debug.xcconfig */,
+				476A91D7D5D3E1B843FD0F3F3BA7D409 /* Pods-JCOTPComponentApp.release.xcconfig */,
 			);
 			name = "Pods-JCOTPComponentApp";
 			path = "Target Support Files/Pods-JCOTPComponentApp";
@@ -137,19 +191,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		095E069807FDE9693972D3597650DFA8 /* Headers */ = {
+		9EE4995719ABBFBA4E9FDF2795182FA5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B623463D5BAA0EE11F733EABFFB6B4 /* Pods-JCOTPComponent-umbrella.h in Headers */,
+				A5DE67DD5D7CF8CC44A5C9D2E6E6DF21 /* Pods-JCOTPComponentApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB1FBD9F5CD0CDA4D89C85513B81409E /* Headers */ = {
+		C5B50E890080EEEFAE823A174B8164D8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2502D072091E602A1E950CDB353EEA7F /* Pods-JCOTPComponentApp-umbrella.h in Headers */,
+				7E1028437DD3AD1854733FFE34AAEC44 /* JCOTPComponent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,38 +212,40 @@
 /* Begin PBXNativeTarget section */
 		490DEE89339FC6FF3EF10A7797612DAE /* Pods-JCOTPComponentApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9286698E8E0ACE972C79510D63C2F4A2 /* Build configuration list for PBXNativeTarget "Pods-JCOTPComponentApp" */;
+			buildConfigurationList = 33A04109FBA62F3E8F7B434464E40F92 /* Build configuration list for PBXNativeTarget "Pods-JCOTPComponentApp" */;
 			buildPhases = (
-				AB1FBD9F5CD0CDA4D89C85513B81409E /* Headers */,
-				692C1908C942E2DB9D09216CF4ED1764 /* Sources */,
-				486BC8D6F423CEF7680A3C47F247ADD1 /* Frameworks */,
-				E52C230E05202458B92FE38F1F8DBE96 /* Resources */,
+				9EE4995719ABBFBA4E9FDF2795182FA5 /* Headers */,
+				4FBDAC64538E3AD3A2054791593E271D /* Sources */,
+				D2824DECD459D791EC392DFF4F3054C1 /* Frameworks */,
+				7730FD4AF1ADCC51667AFF236851FFA3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				62A700B4DBA2861E2E82A51859C5BA23 /* PBXTargetDependency */,
 			);
 			name = "Pods-JCOTPComponentApp";
 			productName = Pods_JCOTPComponentApp;
 			productReference = EC0DB9241C7442C5FFAB275000F55AEC /* Pods-JCOTPComponentApp */;
 			productType = "com.apple.product-type.framework";
 		};
-		A9FDBE1956EB4121EBE8A5B20B8E0B01 /* Pods-JCOTPComponent */ = {
+		BBDBD2F0F94A47F81D4802A451861F3E /* JCOTPComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 571B3BB30347465B0321C10B6829FAB2 /* Build configuration list for PBXNativeTarget "Pods-JCOTPComponent" */;
+			buildConfigurationList = FF8FE3A7031AD5D92BC8D60916725EF9 /* Build configuration list for PBXNativeTarget "JCOTPComponent" */;
 			buildPhases = (
-				095E069807FDE9693972D3597650DFA8 /* Headers */,
-				0EE98278B99518A1E0ED23A8B9689347 /* Sources */,
-				2A004EC8628881D2BF2DABEED91DF111 /* Frameworks */,
-				D78CB8C94CB3E5C3C8F6172800056DE9 /* Resources */,
+				C5B50E890080EEEFAE823A174B8164D8 /* Headers */,
+				168566006D43785B34C27C2ADF2171EF /* [CP] Copy XCFrameworks */,
+				A7F961C2383539A8F3DD50D2194ECEB8 /* Sources */,
+				BF1FA44615F5D8DCBDF51AA9197A3BBD /* Frameworks */,
+				7E39144289777813E62DA64446553D91 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-JCOTPComponent";
-			productName = Pods_JCOTPComponent;
-			productReference = 9BD70C579BCF5C4E4FF9FFAC523016BC /* Pods-JCOTPComponent */;
+			name = JCOTPComponent;
+			productName = JCOTPComponent;
+			productReference = FB7610F6D8C3AC1130319567D3805801 /* JCOTPComponent */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -202,7 +258,7 @@
 				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 12.0";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -210,25 +266,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 33F3BD95E7916B03C425E73FA2E6D951 /* Products */;
+			productRefGroup = 5A2B4E0EA180C1A1B86A518025729463 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9FDBE1956EB4121EBE8A5B20B8E0B01 /* Pods-JCOTPComponent */,
+				BBDBD2F0F94A47F81D4802A451861F3E /* JCOTPComponent */,
 				490DEE89339FC6FF3EF10A7797612DAE /* Pods-JCOTPComponentApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D78CB8C94CB3E5C3C8F6172800056DE9 /* Resources */ = {
+		7730FD4AF1ADCC51667AFF236851FFA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E52C230E05202458B92FE38F1F8DBE96 /* Resources */ = {
+		7E39144289777813E62DA64446553D91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -237,31 +293,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		168566006D43785B34C27C2ADF2171EF /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/JCOTPComponent/JCOTPComponent-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/JCOTPComponent/JCOTPComponent-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/JCOTPComponent/JCOTPComponent-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0EE98278B99518A1E0ED23A8B9689347 /* Sources */ = {
+		4FBDAC64538E3AD3A2054791593E271D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E4AF46C80A9BFF38601C6EFBE1D89F /* Pods-JCOTPComponent-dummy.m in Sources */,
+				0950C4ABC2902CC2877C9B0DC59E82AB /* Pods-JCOTPComponentApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		692C1908C942E2DB9D09216CF4ED1764 /* Sources */ = {
+		A7F961C2383539A8F3DD50D2194ECEB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56C0291ABA9F24D1FCDA9B61017FD581 /* Pods-JCOTPComponentApp-dummy.m in Sources */,
+				A322BE4BC9FDDE810FDB8FDE16BF37E0 /* JCOTPComponent.swift in Sources */,
+				D0AC57DE26DDB468134A46AF70622D2F /* JCOTPComponent-dummy.m in Sources */,
+				1E22CA94E30D3E815D2845E0B705B3EB /* JCOTPComponentDelegate.swift in Sources */,
+				EA713BF8042BE455DA315C35331536CF /* JCOTPComponentImplementation.swift in Sources */,
+				E512896BB38207130FE22E7294322728 /* JCOTPComponentImplementationProtocol.swift in Sources */,
+				515BD43DF0E1533EBF24F8CC8EF06DE0 /* UIView+ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		62A700B4DBA2861E2E82A51859C5BA23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCOTPComponent;
+			target = BBDBD2F0F94A47F81D4802A451861F3E /* JCOTPComponent */;
+			targetProxy = B5262382F8A484C34011885C06EA10E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		3DE1ECB0E3F245E6386762C35AE01C15 /* Debug */ = {
+		0006DCA83DDBF25A513919F1FA91A55E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 041BAE998E1CE6D46E1CC0E8A44AFE73 /* Pods-JCOTPComponent.debug.xcconfig */;
+			baseConfigurationReference = 2956BD6AE907706FBE38132A690E3900 /* JCOTPComponent.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -271,7 +360,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JCOTPComponent/Pods-JCOTPComponent-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JCOTPComponent/JCOTPComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCOTPComponent/JCOTPComponent-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -279,15 +369,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JCOTPComponent/Pods-JCOTPComponent.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/JCOTPComponent/JCOTPComponent.modulemap";
+				PRODUCT_MODULE_NAME = JCOTPComponent;
+				PRODUCT_NAME = JCOTPComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -360,6 +448,42 @@
 			};
 			name = Debug;
 		};
+		51B86028208EA5572B2872986E9FF43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DEA9C210951BB4D76506CC171693EC2 /* JCOTPComponent.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCOTPComponent/JCOTPComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCOTPComponent/JCOTPComponent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JCOTPComponent/JCOTPComponent.modulemap";
+				PRODUCT_MODULE_NAME = JCOTPComponent;
+				PRODUCT_NAME = JCOTPComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -422,47 +546,9 @@
 			};
 			name = Release;
 		};
-		9149CD7C0177B856A22A973191C335AB /* Release */ = {
+		A2E9BEC5433144DC51929DFDC2410FA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA1FBF957B99045188A0DED1FE4340AB /* Pods-JCOTPComponent.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JCOTPComponent/Pods-JCOTPComponent-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JCOTPComponent/Pods-JCOTPComponent.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D6F1A71D8C9F81A602898680021321C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CE05FD18A32F40A1F658A37489C920F /* Pods-JCOTPComponentApp.debug.xcconfig */;
+			baseConfigurationReference = E129AD9D3202D625C1FD6B18CA2B2DDB /* Pods-JCOTPComponentApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -497,9 +583,9 @@
 			};
 			name = Debug;
 		};
-		FE69E1A8F383D12AF12AAFB6A537ED9B /* Release */ = {
+		B7A8BEE86D7BB8C27F35882766B87D41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E08C64155B5F6390E583F7DFF2CA62F4 /* Pods-JCOTPComponentApp.release.xcconfig */;
+			baseConfigurationReference = 476A91D7D5D3E1B843FD0F3F3BA7D409 /* Pods-JCOTPComponentApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -538,6 +624,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		33A04109FBA62F3E8F7B434464E40F92 /* Build configuration list for PBXNativeTarget "Pods-JCOTPComponentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E9BEC5433144DC51929DFDC2410FA2 /* Debug */,
+				B7A8BEE86D7BB8C27F35882766B87D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -547,20 +642,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		571B3BB30347465B0321C10B6829FAB2 /* Build configuration list for PBXNativeTarget "Pods-JCOTPComponent" */ = {
+		FF8FE3A7031AD5D92BC8D60916725EF9 /* Build configuration list for PBXNativeTarget "JCOTPComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3DE1ECB0E3F245E6386762C35AE01C15 /* Debug */,
-				9149CD7C0177B856A22A973191C335AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9286698E8E0ACE972C79510D63C2F4A2 /* Build configuration list for PBXNativeTarget "Pods-JCOTPComponentApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6F1A71D8C9F81A602898680021321C2 /* Debug */,
-				FE69E1A8F383D12AF12AAFB6A537ED9B /* Release */,
+				0006DCA83DDBF25A513919F1FA91A55E /* Debug */,
+				51B86028208EA5572B2872986E9FF43C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

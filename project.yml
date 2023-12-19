@@ -12,8 +12,8 @@ targets:
     deploymentTarget: 14.0
     developmentLanguage: en
     type: application
-    dependencies:
-      - target: JCOTPComponent
+#    dependencies:
+#      - target: JCOTPComponent
     settings:
       DEVELOPMENT_TEAM:
       ENABLE_BITCODE: NO
